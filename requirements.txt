@@ -1,0 +1,35 @@
+Maze Game:
+
+Interface for user:
+Will be able to specify how their character moves
+
+What is user manipulating:
+Position of character in the grid
+
+How are they manipulating it:
+By specifying move directions: Up, Down, Left, Right
+
+What data structure should be used to represent grid?
+An 2D array comprised of lists, since due to the moving
+character the data needs to be immutable
+
+What needs to be implemented programmatically?
+The generation of the maze. I will use a depth first
+search algorithm to construct the various pathways
+around the grid
+
+How will you print the result of the manipulation, is it easy to debug?
+I will print the state of the grid after the user input is placed:
+should be easy to debug since all information is public
+
+Functions and attributes used by main function:
+initialize Maze
+maze.character
+maze.print_grid
+maze.list_character_moves
+maze.move_character
+maze.exit.coordinates
+
+How to represent walls? | works fine for left and right _ for bottom/top
+
+Need to represent nodes for proper construction of walls
